@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: #faf8f6;
+  color: #333;
+  text-align: center;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  background: url("assets/hero.jpg") center/cover no-repeat;
+}
+
+.overlay {
+  background: rgba(0,0,0,0.45);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+
+.overlay h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.8rem;
+}
+
+.date {
+  letter-spacing: 4px;
+  margin: 10px 0;
+}
+
+/* GENERAL */
+section {
+  padding: 80px 20px;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.3rem;
+  margin-bottom: 30px;
+}
+
+/* COUNTDOWN */
+#timer {
+  font-size: 1.6rem;
+  letter-spacing: 2px;
+}
+
+/* EVENT */
+.event {
+  background: #f1ece7;
+}
+
+.event-grid {
+  display: grid;
+  gap: 30px;
+}
+
+.event-box h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+/* MAP */
+.map iframe {
+  width: 100%;
+  height: 300px;
+  border: none;
+}
+
+/* RSVP */
+form {
+  max-width: 420px;
+  margin: auto;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 14px;
+  border: 1px solid #ccc;
+  font-family: inherit;
+}
+
+button {
+  background: #b59b6a;
+  color: white;
+  border: none;
+  padding: 14px;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.hidden {
+  display: none;
+}
+
+/* FOOTER */
+footer {
+  padding: 40px;
+  background: #eee;
+  font-size: 0.9rem;
+}
