@@ -13,7 +13,7 @@ body {
 /* HERO */
 .hero {
   height: 100vh;
-  background: url("assets/hero.jpg") center/cover no-repeat;
+  background: url("hero.jpg") center/cover no-repeat;
 }
 
 .overlay {
