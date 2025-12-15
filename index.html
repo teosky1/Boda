@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Laura & Santi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="overlay">
+    <h1>Laura & Santi</h1>
+    <span class="date">15 · Junio · 2026</span>
+    <p>¡Nos casamos!</p>
+  </div>
+</section>
+
+<!-- COUNTDOWN -->
+<section class="countdown">
+  <h2>Faltan</h2>
+  <div id="timer"></div>
+</section>
+
+<!-- STORY -->
+<section class="story">
+  <h2>Nuestra historia</h2>
+  <p>
+    Con el amor como guía y el compromiso como promesa,
+    decidimos unir nuestras vidas para siempre.
+  </p>
+</section>
+
+<!-- EVENT -->
+<section class="event">
+  <h2>El gran día</h2>
+
+  <div class="event-grid">
+    <div class="event-box">
+      <h3>Ceremonia</h3>
+      <p>Iglesia San José</p>
+      <span>4:00 PM</span>
+    </div>
+
+    <div class="event-box">
+      <h3>Recepción</h3>
+      <p>Hacienda El Lago</p>
+      <span>6:00 PM</span>
+    </div>
+
+    <div class="event-box">
+      <h3>Dress Code</h3>
+      <p>Formal</p>
+    </div>
+  </div>
+</section>
+
+<!-- MAP -->
+<section class="map">
+  <h2>Cómo llegar</h2>
+  <iframe
+    src="https://www.google.com/maps?q=Hacienda+El+Lago&output=embed"
+    loading="lazy">
+  </iframe>
+</section>
+
+<!-- RSVP -->
+<section class="rsvp">
+  <h2>Confirma tu asistencia</h2>
+
+  <form id="rsvpForm">
+    <input type="text" name="entry.NOMBRE" placeholder="Nombre completo" required>
+
+    <select name="entry.ASISTENCIA" required>
+      <option value="">¿Asistirás?</option>
+      <option value="Sí">Sí, asistiré</option>
+      <option value="No">No podré asistir</option>
+    </select>
+
+    <select name="entry.ACOMPANANTE">
+      <option value="">¿Vendrás con acompañante?</option>
+      <option value="Sí">Sí</option>
+      <option value="No">No</option>
+    </select>
+
+    <textarea name="entry.MENSAJE" placeholder="Mensaje para los novios"></textarea>
+
+    <button type="submit">Confirmar asistencia</button>
+  </form>
+
+  <p id="success" class="hidden">¡Gracias por confirmar! 💕</p>
+</section>
+
+<footer>
+  <p>Con amor, Laura & Santi</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
